@@ -1,0 +1,15 @@
+node_modules
+.output
+.tanstack
+.nitro
+.git
+.gitignore
+.env
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+drizzle/meta
+.vscode
+.docs
+README.md

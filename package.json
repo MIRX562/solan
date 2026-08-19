@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "@elysia/eden": "latest",
+    "@elysiajs/openapi": "^1.4.15",
     "@faker-js/faker": "^10.3.0",
     "@sinclair/typebox": "latest",
     "@tailwindcss/vite": "^4.1.18",

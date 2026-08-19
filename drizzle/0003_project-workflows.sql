@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `proposal_project_version_unique` ON `proposal` (`project_id`,`version`);

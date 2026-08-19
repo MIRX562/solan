@@ -72,4 +72,6 @@ export const verification = sqliteTable('verification', {
   ...timestamps,
 })
 
-export const schema = { user, session, account, verification }
+export const authSchema = { user, session, account, verification }
+
+export const schema = authSchema

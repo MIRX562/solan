@@ -17,6 +17,24 @@ To build this application for production:
 bun --bun run build
 ```
 
+## Docker
+
+Build and start the production image:
+
+```bash
+docker build -t solan .
+docker run --rm -p 3000:3000 -v solan-data:/data solan
+```
+
+The SQLite database is stored in the `/data` volume. Apply Drizzle migrations
+from the project environment before starting a new production database:
+
+```bash
+DB_FILE_NAME=./solan.sqlite bun run db:migrate
+```
+
+The API and Swagger UI are available at `/api` and `/api/openapi`.
+
 ## Styling
 
 This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.

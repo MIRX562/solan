@@ -15,6 +15,76 @@
       "when": 1787149867891,
       "tag": "0001_add-account-issuer",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1787151255520,
+      "tag": "0002_projects",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1787151468700,
+      "tag": "0003_project-workflows",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1787151623507,
+      "tag": "0004_deliverables-change-requests",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1787151745306,
+      "tag": "0005_kanban-stage",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1787151928557,
+      "tag": "0006_handoff-documents",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1787152130389,
+      "tag": "0007_catalog",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1787152327974,
+      "tag": "0008_invoicing",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1787152389321,
+      "tag": "0009_accounting-source-events",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1787152922172,
+      "tag": "0010_accounting-ledger",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1787153544247,
+      "tag": "0011_payment-options",
+      "breakpoints": true
     }
   ]
 }
